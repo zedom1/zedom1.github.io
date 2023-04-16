@@ -1,5 +1,13 @@
 ### 佛心app技术支持服务
 
+what is 佛心：
+
+佛心 - 专注于静心解惑
+
+你可以向AI佛祖提出内心的困惑
+
+也可以上香祈福，敲木鱼静心，看着烧香的烟雾渺渺，迅速平静下来
+
 contact us：  appfoxin@126.com
 
 or comment at: https://github.com/zedom1/zedom1.github.io/issues/new
