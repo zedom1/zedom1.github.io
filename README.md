@@ -8,9 +8,10 @@ what is 佛心：
 
 也可以上香祈福，敲木鱼静心，看着烧香的烟雾渺渺，迅速平静下来
 
-contact us：  appfoxin@126.com
 
-or comment at: https://github.com/zedom1/zedom1.github.io/issues/new
+联系我们 Contact us：  appfoxin@126.com
+
+评论留言 Comment at:   https://github.com/zedom1/zedom1.github.io/issues/new
 
 ![image](https://user-images.githubusercontent.com/26038783/232266945-c97fdf5f-c141-418e-8ee9-db87a8241031.png)
 
