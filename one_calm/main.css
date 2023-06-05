@@ -1,0 +1,1079 @@
+.header-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.header-brand:hover {
+  text-decoration: none;
+}
+.brand a img {
+  width: 50px;
+  height: 50px;
+}
+.header-brand h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4a4a4a;
+  margin: 0;
+}
+.toggle-menu {
+  background-color: transparent;
+  border: none;
+}
+.navbar-container {
+  display: none;
+}
+.show {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  padding: 34px;
+  border-radius: 8px;
+  text-align: center;
+  position: absolute;
+  top: 60;
+  z-index: 300;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+.nav-item .nav-link {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+.hero-title-container h1 {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 56px;
+}
+.hero-title-container p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+}
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0;
+}
+.hero-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.hero-form a img {
+  width: 220px;
+  height: 65px;
+}
+.hero-illustration {
+  margin-top: 3rem;
+}
+.hero {
+  text-align: center;
+  padding-top: 40px;
+}
+.hero-paragraph {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.1px;
+  margin-bottom: 40px;
+}
+@media (min-width: 641px) {
+  .hero-paragraph {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.1px;
+  }
+}
+/*post-card start*/
+.feature-inner {
+  padding: 48px 24px;
+}
+.post-header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 0.5rem;
+}
+.feature-inner .post-header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.post-header img {
+  border-radius: 50%;
+  margin-bottom: 0;
+  width: 30px;
+  height: 30px;
+}
+.author-name {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  color: #11103e;
+  margin-bottom: 0;
+}
+.feature-title {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  color: #000000;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  height: 85px;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 1rem 0 1.5rem;
+}
+ul.breadcrumb li + li:before {
+  color: rgba(39, 52, 70, 0.8);
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: rgba(39, 52, 70, 0.8);
+  text-decoration: none;
+}
+.post-description {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  height: 100px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.post-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+}
+.post-footer p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 0;
+}
+.post-topic {
+  background: #efefef;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 0.2rem 0.5rem;
+  color: #000000;
+}
+.post-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.post {
+  width: calc(33.33% - 10px); /* calculate width for 3 posts per row */
+  height: auto;
+  margin-bottom: 35px;
+  cursor: pointer;
+  box-shadow: 0px 14px 24px rgba(17, 16, 62, 0.25);
+  background: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .post {
+    width: calc(50% - 10px); /* calculate width for 2 posts per row */
+  }
+}
+@media screen and (max-width: 480px) {
+  .post {
+    width: 100%; /* display 1 post per row */
+  }
+}
+/*post-card end*/
+/*public-post start*/
+.public-post-content {
+  margin: 2.5rem auto;
+}
+.heading {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+  color: #4a4a4a;
+}
+.cta-section {
+  background: linear-gradient(94.42deg, #e8ecff 0%, #7e96e9 104.18%);
+  padding: 1rem;
+  margin: 1rem 0;
+  padding: 2.5rem 1rem;
+}
+.cta-section h2 {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 50px;
+  color: #4a4a4a;
+  margin: 0;
+}
+.cta-section p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #4a4a4a;
+}
+.cta-section button {
+  background: #ffffff;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 110%;
+  color: #6475cf;
+  width: 140px;
+  height: 30px;
+  border: none;
+  float: right;
+  cursor: pointer;
+}
+.sub-heading {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  color: #4a4a4a;
+  margin: 1rem 0;
+}
+.category-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.category-section .search-wrapper {
+  display: none;
+}
+.search-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.3rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  position: relative;
+  z-index: 200;
+}
+.search-wrapper input {
+  border: 1px solid #d2daf0;
+  width: 100%;
+  padding: 0 0.8rem;
+}
+.search-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #4950f6;
+  width: 36px;
+  height: 36px;
+  border: none;
+  cursor: pointer;
+}
+.search-icon img {
+  width: 15px;
+  height: 15px;
+}
+.category {
+  background: rgba(42, 70, 214, 0.1);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 0 0.2rem;
+  cursor: pointer;
+}
+.category img {
+  width: 28px;
+  height: 28px;
+}
+.category h2 {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 110%;
+  color: #4a4a4a;
+  margin: 0;
+  text-align: left;
+  width: 100px;
+}
+.public-post-header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.public-post-header h1 {
+  display: none;
+}
+.public-post-container {
+  position: relative;
+}
+.public-post-container .public-post .post-header {
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
+.public-post {
+  background: #ffffff;
+  box-shadow: 0px 14px 24px rgba(17, 16, 62, 0.25);
+  padding: 2rem 0.5rem;
+  cursor: pointer;
+}
+.related-pubilc-post {
+  border: 1px solid rgba(17, 16, 62, 0.5);
+  box-shadow: none;
+}
+.public-post-details {
+  cursor: default;
+}
+.public-post-breadcrumb {
+  display: none;
+}
+.post-hero {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+.post-hero img {
+  width: 33px;
+  height: 33px;
+}
+.post-body {
+  padding: 0 0.5rem;
+}
+.post-body h2 {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #11103e;
+  margin: 0.8rem 0;
+}
+.post-body p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #11103e;
+  margin-top: 0.8rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.author-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.author-info p {
+  white-space: nowrap;
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #11103e;
+  line-height: 30px;
+}
+.testimonial-link a {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 42px;
+  color: #000000;
+  margin: 0.5rem 0;
+  text-decoration: none;
+}
+.post-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post-info p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  margin: 0;
+}
+.post-stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+.stats p {
+  margin-top: 0;
+}
+.continue-reading-link {
+  background: #2a46d6;
+  width: 145px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: -25px;
+  cursor: pointer;
+}
+.continue-reading-link h2 {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.advertised {
+  display: none;
+}
+.public-post-sort {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 1rem 0;
+}
+.public-post-sort p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+.pagination-btn {
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+#loadingIndicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 50px;
+}
+#loadingIndicator img {
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 0.3s linear infinite; /* Safari */
+  animation: spin 0.3s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#loadingIndicator p {
+  margin-bottom: 0;
+}
+.load-more-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.load-more-button {
+  background-color: #6a7ee2;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  width: 135px;
+  height: 42px;
+  margin: 20px 0 50px;
+}
+.post__container {
+  margin-bottom: 2rem;
+}
+/*public-post end*/
+/*individual post start*/
+.breadcrum-link {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(39, 52, 70, 0.8);
+  margin: 1rem 0 1.5rem;
+}
+.result-wrapper {
+  margin-top: 1rem;
+}
+.favourable-option {
+  background: #ffffff;
+  border: 2px solid #5c69b0;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 0.8rem;
+  padding: 0.8rem 0.5rem;
+}
+.favourable-option .choice h3 {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #5c69b0;
+}
+.star {
+  background: #5c69b0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.public-post-wrapper .testimonial-link p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 42px;
+  color: #000000;
+  margin: 0.5rem 0;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.details h1 {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3d4a5c;
+}
+.choice-ranking-weight {
+  height: 15px;
+  color: #fff;
+  text-align: end;
+}
+.criteria-weight {
+  background: #7b8ada;
+  margin: auto 0;
+}
+.choice-weight {
+  margin: auto 0;
+}
+.choice-weight-label {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.criteria-weight-label {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #7b8ada;
+}
+.choice {
+  margin: 1rem 0;
+}
+.weight-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.weight-details p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+.result h2 {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6c78b8;
+  margin: 0.5rem 0 0;
+}
+.result p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6c78b8;
+  margin: 0 0 1rem;
+}
+hr {
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.2);
+}
+/*individual post end*/
+.not-found {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 0.8rem;
+  margin-top: 4rem;
+}
+.search-post .heading {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+.related-decision-section .search-wrapper {
+  display: none;
+}
+/*pricing start*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 30px;
+}
+.swiper-pagination {
+  display: none;
+}
+.pricing-heading {
+  text-align: center;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+  margin-bottom: 35px;
+}
+.pricing-card {
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 0px;
+  padding: 20px 30px;
+  width: 290px !important;
+  height: 480px !important;
+}
+.pricing-card .pricing-plan-heading {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
+  color: #4a67ff;
+  margin-bottom: 0;
+}
+.pricing-card .pricing-plan-subheading {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
+  margin: 10px 0 30px;
+}
+.pricing-card:hover {
+  box-shadow: 0px 2px 40px rgba(205, 205, 205, 0.55);
+}
+.pricing-card .plan {
+  list-style: none;
+  padding-left: 0;
+}
+.pricing-card .plan .plan-feature {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.pricing-card .plan .feature-not-available {
+  text-decoration: line-through;
+}
+.plan-feature {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5px;
+}
+/*pricing end*/
+/*advertise-cta start*/
+.decision-mentor-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.decision-mentor-cta h2 {
+  margin-top: 30px;
+}
+.decision-mentor-cta p {
+  text-align: center;
+  padding: 0 0.8rem;
+}
+.hero-form a img {
+  width: 180px !important;
+  height: 50px !important;
+}
+/*advertise-cta end*/
+.pricing-card-comming-soon {
+  height: 520px !important;
+}
+/*media query start*/
+@media (min-width: 768px) {
+  .hero-title-container {
+    text-align: center;
+  }
+  .hero-copy {
+    align-items: center;
+    width: 300px;
+    margin: auto;
+  }
+  .hero-illustration {
+    margin: auto;
+  }
+  .hero-form {
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+  }
+  .favourable-option {
+    justify-content: start;
+    gap: 0.8rem;
+  }
+  .pricing-card-wrapper {
+    flex-direction: row;
+    gap: 0px;
+  }
+  .pricing-heading {
+    font-size: 36px;
+    margin-bottom: 55px;
+  }
+  .swiper-pagination {
+    display: block;
+  }
+  .pricing-card-default {
+    margin-left: 41.5rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .hero-title-container {
+    text-align: start;
+  }
+  .hero {
+    padding-top: 20px;
+  }
+  .toggle-menu {
+    display: none;
+  }
+  .navbar-container {
+    display: block;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  .nav-item .nav-link .active {
+    font-weight: 500;
+  }
+  .hero-inner {
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+  }
+  .hero-copy {
+    align-items: flex-start;
+    margin-right: 92px;
+    min-width: 620px;
+  }
+  .hero-sub-title {
+    font-size: 30px !important;
+  }
+  .hero-form {
+    margin-top: 1rem;
+  }
+  .author-info p {
+    width: 200px;
+  }
+  .short-bio {
+    width: 130px !important;
+  }
+  .heading {
+    display: none;
+  }
+  .testimonial-link a {
+    font-size: 18px;
+  }
+  .public-post-container .public-post .post-header {
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+  .public-post-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    grid-template-rows: auto 1fr;
+    gap: 50px;
+  }
+  .public-post-details-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    grid-template-rows: auto 1fr;
+    gap: 50px;
+  }
+  .cta-section {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 1.5rem 1rem;
+  }
+  .category-section {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+  }
+  .public-post-container {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  .cta-section {
+    margin: 0 0 1rem 0;
+  }
+  .cta-section h2 {
+    font-size: 24px;
+  }
+  .cta-section p {
+    font-size: 20px;
+    padding-right: 150px;
+  }
+  .sub-heading {
+    margin: 0 0 0.5rem 0;
+    font-size: 24px;
+  }
+  .category-section .search-wrapper {
+    display: flex;
+  }
+  .advertised {
+    display: block;
+    width: 270px;
+    height: 350px;
+    background: #d9d9d9;
+  }
+  .advertised h1 {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .public-post-wrapper .testimonial-link p {
+    display: none;
+  }
+  .public-post-content {
+    margin: 0;
+  }
+  .post-desc {
+    margin: 0.5rem 0 0.8rem;
+  }
+  .result p {
+    margin: 0 0 0.8rem;
+  }
+  .search-post .heading {
+    display: block;
+    font-size: 24px;
+  }
+  .search-post .heading {
+    font-size: 24px;
+  }
+  .related-decision-section .search-wrapper {
+    display: flex;
+  }
+  .post-topic {
+    font-size: 13px;
+  }
+  .category-container {
+    grid-template-columns: 1fr;
+  }
+  .category h2 {
+    width: 150px;
+  }
+  .public-post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .public-post-header h1 {
+    display: block;
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6c8dff;
+    margin-bottom: 0;
+  }
+  .testimonial-link {
+    display: none;
+  }
+  .public-post-breadcrumb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 30px;
+  }
+  .public-post-breadcrumb li {
+    padding-top: 0.3rem;
+  }
+  .public-post-breadcrumb li + li:before {
+    color: rgba(39, 52, 70, 0.8) !important;
+    content: "" !important;
+  }
+  .pricing-card-default {
+    margin-left: 30.5rem !important;
+  }
+  .hero-form a img {
+    width: 200px !important;
+    height: 60px !important;
+  }
+  .decision-mentor-cta {
+    margin: 4rem 0 2rem;
+  }
+  .pricing-card {
+    width: 290px !important;
+    height: 500px !important;
+  }
+}
+@media (min-width: 1024px) {
+  .pricing-card-default {
+    margin-left: 20.5rem !important;
+  }
+}
